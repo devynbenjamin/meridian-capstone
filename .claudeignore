@@ -1,0 +1,10 @@
+# Never fed to Claude — customer/employee data per the brief's Terms of
+# engagement (not negotiable). Checklist: docs/data-handling-checklist.md,
+# Section 3 (AI Tool Usage).
+#
+# raw/ holds the full Meridian extract: POS transactions, loyalty program
+# membership & purchase history, labor scheduling & hours, and store
+# attributes all together. Sales totals by store/week and store attributes
+# on their own are fine with AI tools, but they aren't separated out here —
+# so the whole folder stays off-limits until they are.
+raw/
