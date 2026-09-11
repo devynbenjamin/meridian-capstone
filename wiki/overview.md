@@ -18,6 +18,21 @@ up. There's also an unexploited asset — a ~40,000-member loyalty program
 — that could inform a broader understanding of customers, separate from
 the site-selection question.
 
+Nationally, the grocery sector is bifurcating: shoppers are gravitating
+either to discounters on price or to curated specialty retailers on
+experience, with mid-market chains losing ground in between. Specialty
+comparables like Trader Joe's are outperforming the sector, and a
+parallel trend toward small-format "micromarkets" (3,000-5,400 sq ft) is
+gaining investment. Meridian's positioning — smaller footprint, prepared
+foods, local sourcing — looks aligned with where the market is actually
+moving, not just a defensible niche. See
+[Specialty Grocery Positioning](concepts/specialty-grocery-positioning.md)
+and [Small-Format Grocery Trend](concepts/small-format-grocery-trend.md).
+This also sharpens an open question: is Meridian's growth so far riding
+this genuine demand shift, or has it mostly been availability-driven
+(leases becoming open) — see
+[Lease-Driven Expansion](concepts/lease-driven-expansion.md)?
+
 The primary stakeholder is [Dana Okafor](entities/dana-okafor.md), VP of
 Operations, who wrote the brief and is slow but responsive by email; her
 assistant handles scheduling only. She wants a preliminary look ready for

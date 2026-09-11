@@ -2,6 +2,13 @@
 
 Reverse-chronological record of ingests, queries, and lint passes.
 
+## 2026-09-11 — ingest: ICSC new grocery formats article
+
+Ingested https://www.icsc.com/news-and-views/icsc-exchange/new-grocery-formats-store-growth-and-investment-signal-sector-in-motion.
+Created source summary and a new concept page, Small-Format Grocery
+Trend. Updated Specialty Grocery Positioning with external market
+validation and new connections. Updated index.md and overview.md.
+
 ## 2026-09-11 — ingest: client-brief.md
 
 Ingested the Meridian Markets client brief. Created source summary, entity
