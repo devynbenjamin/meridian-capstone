@@ -31,7 +31,21 @@ and [Small-Format Grocery Trend](concepts/small-format-grocery-trend.md).
 This also sharpens an open question: is Meridian's growth so far riding
 this genuine demand shift, or has it mostly been availability-driven
 (leases becoming open) — see
-[Lease-Driven Expansion](concepts/lease-driven-expansion.md)?
+[Lease-Driven Expansion](concepts/lease-driven-expansion.md)? On that
+front, grocery-anchored real estate is currently tight (4.0% vacancy,
+4.4% rent premiums, investment up 42% in 2025), which cuts against a
+simple story of undervalued, easily-available space — worth probing what
+made these specific leases open up.
+
+The consumer side of the same bifurcation is described as "barbell
+shopping": price-squeezed middle-income households splitting spend
+between discounters and specialty retailers and leaning harder into
+private label (21% of spending) rather than staying loyal to one
+mid-market chain. See
+[Barbell Shopper Behavior](concepts/barbell-shopper-behavior.md). This
+gives the loyalty-program analysis a concrete hypothesis to test locally:
+do Meridian's ~40,000 members shop this way, and if so, what does that
+mean for how "improve customer experience" should actually be defined?
 
 The primary stakeholder is [Dana Okafor](entities/dana-okafor.md), VP of
 Operations, who wrote the brief and is slow but responsive by email; her

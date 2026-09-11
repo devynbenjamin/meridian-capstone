@@ -2,6 +2,13 @@
 
 Reverse-chronological record of ingests, queries, and lint passes.
 
+## 2026-09-11 — ingest: JLL grocery tracker article
+
+Ingested https://www.jll.com/en-ca/insights/market-perspectives/grocery-winners-are-built-for-value-fresh-format-and-convenience.
+Created source summary and a new concept page, Barbell Shopper Behavior.
+Updated Lease-Driven Expansion with real estate market data. Updated
+index.md and overview.md.
+
 ## 2026-09-11 — ingest: ICSC new grocery formats article
 
 Ingested https://www.icsc.com/news-and-views/icsc-exchange/new-grocery-formats-store-growth-and-investment-signal-sector-in-motion.
