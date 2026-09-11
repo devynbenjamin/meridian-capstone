@@ -1,0 +1,10 @@
+# Raw data extract from Meridian — never committed.
+# Checklist: docs/data-handling-checklist.md, Section 2 (Storage) and
+# Section 6 (Disposal). Contains loyalty, labor, and POS data.
+raw/
+
+# OS / editor cruft
+.DS_Store
+
+# Wiki raw sources (external articles/research) — not version-controlled
+wiki/sources-raw/
