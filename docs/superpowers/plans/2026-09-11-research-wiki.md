@@ -31,13 +31,13 @@
 **Interfaces:**
 - Produces: the four top-level files and four directories that Tasks 2 and 3 write into. `wiki/index.md` uses the section headers `## Sources`, `## Entities`, `## Concepts`. `wiki/log.md` uses one `##` heading per dated entry, newest first. `wiki/overview.md` is free-form prose under a single `# Overview` heading.
 
-- [ ] **Step 1: Create the wiki directories**
+- [x] **Step 1: Create the wiki directories**
 
 ```bash
 mkdir -p wiki/sources wiki/entities wiki/concepts wiki/sources-raw
 ```
 
-- [ ] **Step 2: Create `wiki/index.md`**
+- [x] **Step 2: Create `wiki/index.md`**
 
 ```markdown
 # Wiki Index
@@ -57,7 +57,7 @@ _(none yet)_
 _(none yet)_
 ```
 
-- [ ] **Step 3: Create `wiki/log.md`**
+- [x] **Step 3: Create `wiki/log.md`**
 
 ```markdown
 # Wiki Log
@@ -65,7 +65,7 @@ _(none yet)_
 Reverse-chronological record of ingests, queries, and lint passes.
 ```
 
-- [ ] **Step 4: Create `wiki/overview.md`**
+- [x] **Step 4: Create `wiki/overview.md`**
 
 ```markdown
 # Overview
@@ -74,7 +74,7 @@ _(No sources ingested yet — this will synthesize what the wiki knows
 about Meridian and its market once there's something to synthesize.)_
 ```
 
-- [ ] **Step 5: Add `wiki/sources-raw/` to `.gitignore`**
+- [x] **Step 5: Add `wiki/sources-raw/` to `.gitignore`**
 
 Add this block to the existing `.gitignore` (append, don't remove existing entries):
 
@@ -84,7 +84,7 @@ Add this block to the existing `.gitignore` (append, don't remove existing entri
 wiki/sources-raw/
 ```
 
-- [ ] **Step 6: Verify — what done looks like**
+- [x] **Step 6: Verify — what done looks like**
 
 Run:
 
@@ -96,7 +96,7 @@ Expected: `wiki/` lists `index.md`, `log.md`, `overview.md`, `concepts/`, `entit
 
 **How you check it:** run the command above yourself, or open `wiki/` in your editor's file tree and confirm the four files and four folders exist with that starting content.
 
-- [ ] **Step 7: Commit**
+- [x] **Step 7: Commit**
 
 ```bash
 git add wiki/index.md wiki/log.md wiki/overview.md .gitignore
@@ -119,7 +119,7 @@ Claude-Session: https://claude.ai/code/session_01RBS8WWtHSM4UKmC4ebaQ8d"
 - Consumes: the folder layout and file conventions from Task 1 (`wiki/index.md`'s three headings, `wiki/log.md`'s entry format).
 - Produces: the procedures Task 3 (and every future ingest/query/lint) follows. Referenced by name (`wiki/SCHEMA.md`) from `docs/superpowers/specs/2026-09-11-research-wiki-design.md`.
 
-- [ ] **Step 1: Write `wiki/SCHEMA.md`**
+- [x] **Step 1: Write `wiki/SCHEMA.md`**
 
 ```markdown
 # Wiki Schema
@@ -202,7 +202,7 @@ definition, being fed into an AI tool.
 5. Append the lint pass and its findings to `log.md`.
 ```
 
-- [ ] **Step 2: Verify — what done looks like**
+- [x] **Step 2: Verify — what done looks like**
 
 Run:
 
@@ -214,7 +214,7 @@ Expected: file exists; grep prints a count of 5 or more (confirms the Structure/
 
 **How you check it:** read `wiki/SCHEMA.md` yourself and confirm it covers page conventions, the data-handling rule, and all three workflows clearly enough that you'd be comfortable with me following it verbatim.
 
-- [ ] **Step 3: Commit**
+- [x] **Step 3: Commit**
 
 ```bash
 git add wiki/SCHEMA.md
@@ -239,13 +239,13 @@ Claude-Session: https://claude.ai/code/session_01RBS8WWtHSM4UKmC4ebaQ8d"
 - Consumes: the page templates and Ingest workflow from `wiki/SCHEMA.md` (Task 2); `client-brief.md` at the repo root as the source text.
 - Produces: the first populated example of every page type, for Task-4-and-beyond ingests to follow as a model.
 
-- [ ] **Step 1: Re-read `client-brief.md` and `wiki/SCHEMA.md`**
+- [x] **Step 1: Re-read `client-brief.md` and `wiki/SCHEMA.md`**
 
 `client-brief.md` is at the repo root (already read earlier in this
 project). Re-read `wiki/SCHEMA.md`'s Ingest workflow (Task 2) immediately
 before this step so the page structure is fresh.
 
-- [ ] **Step 2: Write `wiki/sources/client-brief.md`**
+- [x] **Step 2: Write `wiki/sources/client-brief.md`**
 
 Follow the `sources/<slug>.md` template from `SCHEMA.md` (`## Key
 Takeaways`, `## Open Questions`). Key Takeaways should cover: what
@@ -261,7 +261,7 @@ specifically makes the Pasadena site "obvious," what "improve customer
 experience" means operationally, whether prior expansions have data on
 what made stores succeed or struggle).
 
-- [ ] **Step 3: Write the entity and concept pages this source touches**
+- [x] **Step 3: Write the entity and concept pages this source touches**
 
 Create, following `SCHEMA.md`'s templates:
 - `wiki/entities/meridian-markets.md` — the company itself: who they are,
@@ -282,13 +282,13 @@ Create, following `SCHEMA.md`'s templates:
 Each new entity/concept page should link back to `sources/client-brief.md`
 as the source of what's known so far.
 
-- [ ] **Step 4: Update `wiki/index.md`**
+- [x] **Step 4: Update `wiki/index.md`**
 
 Add one-line entries under `## Sources`, `## Entities`, and `## Concepts`
 for every page created in Steps 2-3, replacing the `_(none yet)_`
 placeholders.
 
-- [ ] **Step 5: Append to `wiki/log.md`**
+- [x] **Step 5: Append to `wiki/log.md`**
 
 Add an entry at the top (newest first):
 
@@ -300,14 +300,14 @@ entity pages for Meridian Markets and Dana Okafor, and concept page(s)
 for [list what you actually created in Step 3]. Seeds the wiki.
 ```
 
-- [ ] **Step 6: Rewrite `wiki/overview.md`**
+- [x] **Step 6: Rewrite `wiki/overview.md`**
 
 Replace the placeholder with 2-4 short paragraphs synthesizing what the
 wiki now knows: who Meridian is, what they need, why now, and what's
 still open — pulling from the pages just created, not restating the raw
 brief.
 
-- [ ] **Step 7: Verify — what done looks like**
+- [x] **Step 7: Verify — what done looks like**
 
 Run:
 
@@ -325,7 +325,7 @@ reads as an accurate, useful summary of the brief without you having to
 cross-check every line against the original, the seeding worked. Spot-check
 one entity page and the source page against `client-brief.md` for accuracy.
 
-- [ ] **Step 8: Commit**
+- [x] **Step 8: Commit**
 
 ```bash
 git add wiki/sources wiki/entities wiki/concepts wiki/index.md wiki/log.md wiki/overview.md
