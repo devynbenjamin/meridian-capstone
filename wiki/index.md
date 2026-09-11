@@ -19,3 +19,4 @@ Catalog of everything in this wiki. One line per page.
 - [Lease-Driven Expansion](concepts/lease-driven-expansion.md) — growing by taking over leases chains exited, in neighborhoods believed underserved.
 - [Small-Format Grocery Trend](concepts/small-format-grocery-trend.md) — national shift to smaller-footprint micromarkets; how Meridian's own footprint compares.
 - [Barbell Shopper Behavior](concepts/barbell-shopper-behavior.md) — bifurcated, price-squeezed consumer base; a hypothesis to test against Meridian's loyalty data.
+- [Where Specialty Grocers Are Opening](concepts/specialty-grocer-site-selection.md) — filed query answer: format/site-type findings from ICSC and JLL, and the local-market gap our sources don't cover.
